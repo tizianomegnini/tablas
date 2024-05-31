@@ -1,0 +1,91 @@
+table td{
+    text-align: center;
+    border: 1px solid;
+}
+table th{
+    text-align: center;
+    border: 1px solid;
+}
+table .tallerrojo{
+    background-color: rgb(255, 200, 129);
+}
+table .tallerazul{
+    background-color: rgb(124, 177, 255);
+}
+table .tallernaranja{
+    background-color: rgb(216, 255, 124);
+}
+table .tallerverde{
+    background-color: rgb(128, 255, 195);
+}
+h1{
+    text-align: center;
+}
+tabla1{
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+titulo{
+    background-color: #585858;
+}
+h1 {
+
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px #718081;
+}
+h2{
+    background-color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 4px;
+    text-align: center;
+    box-shadow: 3px 2px 2px 2px #757575;
+}
+encuesta.comentario {
+    width: 50%; height: 50%;
+
+}
+
+body{
+    background-color: rgb(202, 228, 226);
+    
+}
+.titulo{
+    background-color: rgb(178, 194, 209);
+    
+}
+.tablatitulo{
+    background-color: rgb(255, 255, 255);
+    
+}
+.horarios{
+    background-color: rgb(255, 255, 255);
+}
+table{
+    width: 100%;
+    margin-top: -115px;
+    box-shadow: 2px 2px 2px 2px #757575;
+      
+}
+.info{
+    text-align: center;
+}
+.encuesta{ 
+    box-shadow:2px 2px 2px 2px #000000;
+}

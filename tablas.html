@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas TecN5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="talleres.html">Talleres</a></li>
+        <li><a href="charlas.html">Charlas</a></li>
+        <li><a href="exposiciones.html">Exposiciones</a></li>
+    </ul>
+  </nav>
+  <div class="titulo">
+    <h1>Tecnica N5: Amancio Williams</h1>
+  </div>
+      <table class="tabla">
+<thead class="tablatitulo">
+    <th>Horarios</th> <th>Lunes</th> <th>Martes</th> <th>Miercoles</th> <th>Jueves</th> <th>Viernes</th>
+</thead>
+<tbody>
+ 
+    <tr>  
+      <td rowspan="1" class="horarios">8:00</td>
+      <td rowspan="4" class="tallernaranja"      ><a href="disenoweb">Taller De Diseño Web</a></td>  
+      <td rowspan="3" class="tallerverde"        ><a href="talleres.html">Taller De Impresion 3D</a></td>
+      <td rowspan="2" class="tallerazul"         ><a href="charlas.html">Charla Inteligencia Artificial</a></td>
+      <td rowspan="4" class="tallernaranja"      ><a href="talleres.html">Taller Data Bases De Datos</a></td>
+      <td rowspan="3" class="tallerverde"        ><a href="talleres.html">Taller De Diseño Grafico</a></td>   
+    </tr>
+    <br>
+    <tr>  
+        <td rowspan="1" class="horarios">9:00 </td>
+      </tr>
+      <br>
+      <tr>  
+        <td rowspan="1" class="horarios">10:00</td>
+        <td rowspan="2" class="tallerazul"><a href="charlas.html">Charla Data Ming</a></td>
+        
+      </tr>
+      <br>
+      <tr>  
+          <td rowspan="1" class="horarios">11:00 </td>
+          <td rowspan="1" class="tallerrojo"      ><a href="exposiciones.html">Expo Grupo C</a></td>
+          <td rowspan="1" class="tallerrojo"      ><a href="exposiciones.html">Expo Grupo C</a></td>   
+        </tr>
+        <br>
+        <tr>  
+            <td rowspan="1" class="horarios">12:00</td>
+            <td colspan="5" class="horarios">Receso</td>
+          </tr>
+          <br>
+          <tr>  
+              <td rowspan="1" class="horarios">13:00 </td>
+              <td rowspan="2" class="tallerazul"      ><a href="charlas.html">Charla Servidores</a></td>
+              <td rowspan="2" class="tallerazul"      ><a href="charlas.html">Charla E-Commerce</a></td>
+              <td rowspan="1" class="tallerrojo"      ><a href="exposiciones.html">Expo Grupo A</a></td>
+              <td rowspan="1" class="tallerrojo"      ><a href="exposiciones.html">Expo Grupo A</a></td>
+              <td rowspan="2" class="tallerazul"      ><a href="exposiciones.html">Charla Internet Of Things</a></td>   
+            </tr>
+            <br>
+            <tr>  
+                <td rowspan="1" class="horarios">14:00 </td>
+                <td rowspan="1" class="tallerrojo"><a href="exposiciones.html">Expo Grupo B</a></td>
+              <td rowspan="1" class="tallerrojo" ><a href="exposiciones.html">Expo Grupo B</a></td>
+              </tr>
+</tbody>
+  </table>   
+  <div class="titulo">
+  <h1>-Formulario-</h1>
+  </div>
+  <br>
+  <form action="/submit-form" method="post">
+    <div>
+      <label for="name">Nombre: </label>
+      <input id="name" type="text" placeholder="" required>
+    </div>
+    <br>
+    <div>
+      <label for="dropdown">Selecciona una materia:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="select" selected></option>
+        <option value="taller">Talleres</option>
+        <option value="charlas">Charlas</option>
+        <option value="exposiciones">Exposiciones</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="dropdown">¿De que nivel es tu interes?</label>
+      <select id="dropdown" name="dropdown">
+        <option value="select" selected></option>
+        <option value="1punto">1</option>
+        <option value="2puntos">2</option>
+        <option value="3puntos">3</option>
+        <option value="4puntos">4</option>
+        <option value="5puntos">5</option>
+      </select>
+    </div>
+    <br>
+    <fieldset class="encuestas">
+      <legend>Temas a tener en cuenta en el proximo congreso:</legend>
+      <input id="seguridad" type="checkbox" name="reason-choose" value="seguridad">
+      <label for="seguridad">Seguridad</label><br>
+      <input id="redes" type="checkbox" name="reason-choose" value="redes">
+      <label for="redes">Redes</label><br>
+      <input id="basesdedatos" type="checkbox" name="reason-choose" value="basesdedatos">
+      <label for="basesdedatos">Bases de Datos</label><br>
+      <input id="inteligenciaartificial" type="checkbox" name="reason-choose" value="inteligenciaartificial">
+      <label for="inteligenciaartificial">Inteligencia Artificial</label><br>
+      <input id="aplicacionesmoviles" type="checkbox" name="reason-choose" value="aplicacionesmoviles">
+      <label for="aplicacionesmoviles">Aplicaciones Moviles</label><br>
+      <input id="desarrolloweb" type="checkbox" name="reason-choose" value="desarrolloweb">
+      <label for="desarrolloweb">Desarrollo Web</label><br>
+    </fieldset>
+    <br>
+    <fieldset class="encuestas">
+    <legend>Comentario del usuario:</legend>
+    <input id="comentario" type="text" placeholder="" required>
+    </fieldset>
+  </body>
+
+</html>
